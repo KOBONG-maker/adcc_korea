@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ADCC KOREA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo">ADCC<span class="logo-highlight">KOREA</span></h1>
+            </div>
+            <button class="nav-toggle" aria-label="메뉴 토글">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">HOME</a></li>
+                <li><a href="schedule.html" class="nav-link">대회일정</a></li>
+                <li><a href="news.html" class="nav-link">뉴스</a></li>
+                <li><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li><a href="gallery.html" class="nav-link">갤러리</a></li>
+                <li><a href="contact.html" class="nav-link active">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header" style="padding-top: 120px; padding-bottom: 60px; background: var(--color-bg-secondary);">
+        <div class="container">
+            <span class="section-label">GET IN TOUCH</span>
+            <h2 class="section-title">문의하기</h2>
+            <p style="color: var(--color-text-muted); margin-top: 1rem; max-width: 600px;">
+                대회 참가, 스폰서십, 기타 문의사항이 있으시면 연락주세요.
+            </p>
+        </div>
+    </section>
+
+    <section style="padding: 4rem 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem;">
+                <div>
+                    <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 2rem;">연락처 정보</h3>
+                    
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="font-family: var(--font-heading); color: var(--color-primary); margin-bottom: 0.5rem;">이메일</h4>
+                        <p style="color: var(--color-text-muted); font-size: 1.125rem;">info@adcckorea.com</p>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="font-family: var(--font-heading); color: var(--color-primary); margin-bottom: 0.5rem;">전화</h4>
+                        <p style="color: var(--color-text-muted); font-size: 1.125rem;">02-1234-5678</p>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="font-family: var(--font-heading); color: var(--color-primary); margin-bottom: 0.5rem;">사무실</h4>
+                        <p style="color: var(--color-text-muted); line-height: 1.6;">
+                            서울특별시 강남구<br>
+                            테헤란로 123<br>
+                            ADCC 빌딩 5층
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 style="font-family: var(--font-heading); color: var(--color-primary); margin-bottom: 1rem;">업무 시간</h4>
+                        <p style="color: var(--color-text-muted); line-height: 1.6;">
+                            평일: 09:00 - 18:00<br>
+                            주말 및 공휴일: 휴무
+                        </p>
+                    </div>
+                </div>
+
+                <div style="background: var(--color-bg-secondary); padding: 2rem; border: 1px solid var(--color-border);">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 1.5rem;">문의 양식</h3>
+                    <form style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px;">이름 *</label>
+                            <input type="text" required style="width: 100%; padding: 0.75rem; background: var(--color-bg-tertiary); border: 1px solid var(--color-border); color: var(--color-text); font-family: var(--font-body);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px;">이메일 *</label>
+                            <input type="email" required style="width: 100%; padding: 0.75rem; background: var(--color-bg-tertiary); border: 1px solid var(--color-border); color: var(--color-text); font-family: var(--font-body);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px;">문의 유형</label>
+                            <select style="width: 100%; padding: 0.75rem; background: var(--color-bg-tertiary); border: 1px solid var(--color-border); color: var(--color-text); font-family: var(--font-body);">
+                                <option>대회 참가 문의</option>
+                                <option>스폰서십 문의</option>
+                                <option>미디어 문의</option>
+                                <option>기타</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px;">메시지 *</label>
+                            <textarea required rows="6" style="width: 100%; padding: 0.75rem; background: var(--color-bg-tertiary); border: 1px solid var(--color-border); color: var(--color-text); font-family: var(--font-body); resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">문의하기</button>
+                    </form>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; padding: 2rem; background: var(--color-bg-secondary); border: 1px solid var(--color-border);">
+                <div>
+                    <h4 style="font-family: var(--font-heading); color: var(--color-secondary); margin-bottom: 1rem;">대회 참가 문의</h4>
+                    <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6;">
+                        참가 신청, 체급, 규정 등에 대한 문의
+                    </p>
+                </div>
+                <div>
+                    <h4 style="font-family: var(--font-heading); color: var(--color-secondary); margin-bottom: 1rem;">스폰서십 문의</h4>
+                    <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6;">
+                        후원 및 파트너십 제안
+                    </p>
+                </div>
+                <div>
+                    <h4 style="font-family: var(--font-heading); color: var(--color-secondary); margin-bottom: 1rem;">미디어 문의</h4>
+                    <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6;">
+                        취재, 인터뷰, 콘텐츠 협업 문의
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">ADCC<span>KOREA</span></h3>
+                    <p class="footer-tagline">The Ultimate Grappling Championship</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>대회 정보</h4>
+                        <ul>
+                            <li><a href="schedule.html">대회 일정</a></li>
+                            <li><a href="news.html">뉴스</a></li>
+                            <li><a href="gallery.html">갤러리</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="about.html">ADCC 소개</a></li>
+                            <li><a href="contact.html">문의하기</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">YouTube</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ADCC KOREA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <style>
+        @media (max-width: 768px) {
+            section > .container > div[style*="grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+        }
+    </style>
+</body>
+</html>
